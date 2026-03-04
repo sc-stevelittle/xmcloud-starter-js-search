@@ -62,8 +62,8 @@ import * as ImageGalleryFiftyFiftydev from 'src/components/image-gallery/ImageGa
 import * as ImageGalleryFeaturedImagedev from 'src/components/image-gallery/ImageGalleryFeaturedImage.dev';
 import * as ImageGallerydev from 'src/components/image-gallery/ImageGallery.dev';
 import * as ImageGallery from 'src/components/image-gallery/ImageGallery';
-import * as ImageWrapperdev from 'src/components/image/ImageWrapper.dev';
 import * as imageoptimizationcontext from 'src/components/image/image-optimization.context';
+import * as ImageWrapperdev from 'src/components/image/ImageWrapper.dev';
 import * as Icon from 'src/components/icon/Icon';
 import * as HeroImageRightdev from 'src/components/hero/HeroImageRight.dev';
 import * as HeroImageBottomInsetdev from 'src/components/hero/HeroImageBottomInset.dev';
@@ -159,8 +159,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ImageGalleryFiftyFifty', { ...ImageGalleryFiftyFiftydev }],
   ['ImageGalleryFeaturedImage', { ...ImageGalleryFeaturedImagedev }],
   ['ImageGallery', { ...ImageGallerydev, ...ImageGallery }],
-  ['ImageWrapper', { ...ImageWrapperdev }],
   ['image-optimization', { ...imageoptimizationcontext }],
+  ['ImageWrapper', { ...ImageWrapperdev }],
   ['Icon', { ...Icon }],
   ['HeroImageRight', { ...HeroImageRightdev }],
   ['HeroImageBottomInset', { ...HeroImageBottomInsetdev }],
